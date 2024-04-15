@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadWell Latest Articles</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        /* Custom CSS for centering and styling */
+    .custom-container {
+        background-image: url('C:/Users/zuoku/nodeblog/images/books.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+        background-size: cover; /* Cover the entire container with the background image */
+        background-position: center; /* Center the background image */
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        max-height: 800px; /* Set a maximum height to enable scrolling */
+        overflow-y: auto; /* Enable vertical scrolling */
+    }
+
+    .custom-card {
+        margin: 10px;
+        width: 900px;
+        }
+
+    .custom-card img {
+            height: 300px; /* Adjust height as needed */
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="blog-header-logo text-dark">READWELL</a>
+                <nav class="nav nav-scroller">
+                    <a class="nav-link" href="C:\Users\zuoku\nodeblog\home.html">Home</a>
+                    <a class="nav-link" href="C:\Users\zuoku\nodeblog\blog.html">Latest news</a>
+                    <a class="nav-link" href="C:\Users\zuoku\nodeblog\about.html">About</a>
+                    <a class="nav-link" href="C:\Users\zuoku\nodeblog\contact.html">Contact</a>
+                    <a class="nav-link" href="C:\Users\zuoku\nodeblog\login.html">Login</a>
+                </nav>
+            </div>
+        </header>
+    
+        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+          <div class="col-md-6 px-0">
+            <h1 class="display-4 font-italic">Latest Articles</h1>
+            <p class="lead my-3">We are devoted to making your reading experience amazing with the right reviews and recommendations.</p>
+            <p class="lead mb-0"><a href="C:\Users\zuoku\nodeblog\login.html" class="text-white font-weight-bold">Login to leave a review...</a></p>
+          </div>
+        </div>
+    </div>
+
+<div class="container custom-container">
+        <!-- Card 1 -->
+        <div class="card custom-card">
+            <img src="C:\Users\zuoku\nodeblog\images\page.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">New Releases</h5>
+                <p class="card-text">From the author Lauren Asher as she releases the third book in her popular series of the Kane brothers.</p>
+
+                <div id="hiddenContent1" style="display: none;">
+                    <!-- Content you want to hide initially -->
+                    <h2>Final Offer</h2>
+                    <p>In the mood for a heartwarming coming-of-age story that tackles important themes with sensitivity and humor?
+                    Look no further as this book contains a lot of challenging topics that makes it real to readers. The main Character 
+                    Cal struggles with alcholism and he sees himself as a reflection of his father. The book is set in a small town and he 
+                    goes back to the town he used to love as a kid but his memories of failed relationship haunts him.</p>
+
+                    <p>Join Cal in his attempt to win back his soulmate and become a better person.
+                    </p>
+                </div>
+                <a href="#" id="readMoreLink1" class="read-more-link">Continue reading</a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card custom-card">
+            <img src="C:\Users\zuoku\nodeblog\images\lis.jpg" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Twisted Series</h5>
+                <p class="card-text">Adult contemporary romance readers are loving this new series by Ana Huang.</p>
+
+                <div id="hiddenContent2" style="display: none;">
+                    <!-- Content you want to hide initially -->
+                    <h2>Twisted Love</h2>
+                    <p>Get ready for an emotional rollercoaster as Ana Huang brings you the second installment of the Twisted series. 
+                        Following the tumultuous journey of the protagonists, this book delves deeper into their complex relationship, filled with passion, 
+                        secrets, and unexpected twists.</p>
+
+                    <p>Join the characters as they navigate the challenges of love, trust, and self-discovery in a gripping tale
+                         that will keep you on the edge of your seat until the very end.</p>
+                </div>
+                <a href="#" id="readMoreLink2" class="read-more-link">Continue reading</a>
+            </div>
+        </div>
+        <!-- Card 3 -->
+                <div class="card custom-card">
+                    <img src="C:\Users\zuoku\nodeblog\images\images.jpg" class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Maddest Obsession</h5>
+                        <p class="card-text">Dive into the world of passion and danger with Danielle Lori's latest release.</p>
+
+                        <div id="hiddenContent3" style="display: none;">
+                            <!-- Content you want to hide initially -->
+                            <h2>Maddest Obsession</h2>
+                            <p>Experience the intensity of forbidden love and the allure of the underworld in this captivating romance novel. Follow the tumultuous journey of the protagonists as they navigate through betrayal, desire, and redemption in a world where nothing is as it seems.</p>
+
+                            <p>Join the characters as they embark on a thrilling adventure filled with twists and turns that will keep you on the edge of your seat until the very end.</p>
+                        </div>
+                        <a href="#" id="readMoreLink3" class="read-more-link">Continue reading</a>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card custom-card">
+                    <img src="C:\Users\zuoku\nodeblog\images\sweetest.jpg" class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Sweetest Oblivion</h5>
+                        <p class="card-text">Indulge in a tale of love, sacrifice, and redemption in Danielle Lori's mesmerizing novel.</p>
+
+                        <div id="hiddenContent4" style="display: none;">
+                            <!-- Content you want to hide initially -->
+                            <h2>Sweetest Oblivion</h2>
+                            <p>Explore the depths of the human heart and the power of forgiveness in this emotionally charged romance. Lose yourself in the passionate and tender moments shared between the protagonists as they confront their past, present, and future.</p>
+
+                            <p>Join the characters on a journey of self-discovery and second chances as they strive to overcome the obstacles standing in the way of their happiness.</p>
+                        </div>
+                        <a href="#" id="readMoreLink4" class="read-more-link">Continue reading</a>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card custom-card">
+                    <img src="C:\Users\zuoku\nodeblog\images\bridgeton.jpg" class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Darkest Temptation</h5>
+                        <p class="card-text">Enter a world of intrigue, danger, and seduction in Danielle Lori's gripping novel.</p>
+
+                        <div id="hiddenContent5" style="display: none;">
+                            <!-- Content you want to hide initially -->
+                            <h2>Darkest Temptation</h2>
+                            <p>Immerse yourself in a tale of forbidden desire and dark secrets as the protagonists grapple with their inner demons and the allure of temptation. Set against the backdrop of a dangerous underworld, this novel will take you on a thrilling ride filled with suspense and passion.</p>
+
+                            <p>Join the characters as they navigate through a web of lies and deceit, where nothing is as it seems and trust is a rare commodity.</p>
+                        </div>
+                        <a href="#" id="readMoreLink5" class="read-more-link">Continue reading</a>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="card custom-card">
+                    <img src="C:\Users\zuoku\nodeblog\images\final.jpg" class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Deviant King</h5>
+                        <p class="card-text">Dive into the world of power, passion, and deception in Rina Kent's captivating series opener.</p>
+
+                        <div id="hiddenContent6" style="display: none;">
+                            <!-- Content you want to hide initially -->
+                            <h2>Royal Elite: Deviant King</h2>
+                            <p>Follow the protagonist as they navigate the treacherous halls of Royal Elite Academy, where nothing is as it seems and everyone has their secrets. Witness their rise to power and their descent into darkness as they become entangled in a web of lies, betrayal, and forbidden desires.</p>
+
+                            <p>Prepare to be swept away by the intrigue and suspense of this thrilling tale as you unravel the mysteries of Royal Elite.</p>
+                        </div>
+                        <a href="#" id="readMoreLink6" class="read-more-link">Continue reading</a>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="card custom-card">
+                    <img src="C:\Users\zuoku\nodeblog\images\terms.jpg" class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Steel Princess</h5>
+                        <p class="card-text">Embark on a journey of love, loyalty, and betrayal in Rina Kent's mesmerizing second installment.</p>
+
+                        <div id="hiddenContent7" style="display: none;">
+                            <!-- Content you want to hide initially -->
+                            <h2>Royal Elite: Steel Princess</h2>
+                            <p>Witness the protagonist's struggle to navigate the dangerous waters of Royal Elite Academy while grappling with their own desires and demons. Follow their quest for redemption and revenge as they confront their past and forge their future in a world of power, privilege, and passion.</p>
+
+                            <p>Join the characters as they fight for love and freedom in this gripping sequel to Deviant King.</p>
+                        </div>
+                        <a href="#" id="readMoreLink7" class="read-more-link">Continue reading</a>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="card custom-card">
+                    <img src="C:\Users\zuoku\nodeblog\images\hate.jpg" class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Twisted Kingdom</h5>
+                        <p class="card-text">Enter a world of intrigue, danger, and forbidden love in Rina Kent's captivating third installment.</p>
+
+                        <div id="hiddenContent8" style="display: none;">
+                            <!-- Content you want to hide initially -->
+                            <h2>Royal Elite: Twisted Kingdom</h2>
+                            <p>Explore the dark secrets and hidden desires of Royal Elite Academy as the protagonist delves deeper into the heart of darkness. Follow their journey as they confront their enemies and allies alike, and uncover the truth behind the twisted games being played.</p>
+
+                            <p>Prepare to be enthralled by the twists and turns of this thrilling chapter in the Royal Elite series</p>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+    <footer class="blog-footer">
+        <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p>
+          <a href="#">Back to top</a>
+        </p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get references to the hidden content and the "Read more" links
+            var hiddenContents = document.querySelectorAll('.card-body > div[id^="hiddenContent"]');
+            var readMoreLinks = document.querySelectorAll('.read-more-link');
+    
+            // Add event listeners to each "Read more" link
+            readMoreLinks.forEach(function(link, index) {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent the default link behavior
+    
+                    // Toggle the visibility of the corresponding hidden content
+                    if (hiddenContents[index].style.display === 'none') {
+                        hiddenContents[index].style.display = 'block';
+                        link.textContent = 'Read less'; // Change the link text to "Read less"
+                    } else {
+                        hiddenContents[index].style.display = 'none';
+                        link.textContent = 'Continue reading'; // Change the link text back to "Continue reading"
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+    
